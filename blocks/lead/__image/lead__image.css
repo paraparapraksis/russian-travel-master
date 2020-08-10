@@ -1,23 +1,22 @@
 .lead__image {
-    max-width: 984px;
-    width: 100vw;
+    /*max-width: 984px;*/
+    width: 100%;
     margin-top: 64px;
     object-fit: contain;
 }
 
+
 @media (max-width: 1024px) {
     .lead__image {
-        max-width: 928px;
-        width: 100vw;
         margin-top: 56px;
+
     }
 
 }
 
 @media (max-width: 768px) {
     .lead__image {
-        width: 100%;
-        margin-top: 56px;
+        width: 100vw;
     }
 
 }
@@ -25,7 +24,6 @@
 @media (max-width: 320px) {
     .lead__image {
         margin-top: 40px;
-        width: 100%;
     }
 
 }

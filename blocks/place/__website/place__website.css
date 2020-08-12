@@ -1,2 +1,12 @@
 @import url(./_url-heading/place__website_url-heading.css);
 @import url(./_url-link/place__website_url-link.css);
+
+.place__website {
+    align-self: end;
+}
+
+@media (max-width: 320px) {
+    .place__website {
+        display: none;
+    }
+}

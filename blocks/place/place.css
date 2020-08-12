@@ -5,7 +5,29 @@
 
 .place {
     display: grid;
-    grid-template-columns: repeat(2, 460px);
-    grid-template-rows: repeat(3, 460px);
+    grid-template-columns: fit-content(460px) fit-content(484px);
+    grid-template-rows: min-content fit-content(460px);
     gap: 48px 40px;
+}
+
+@media (max-width: 1080px) {
+    .place {
+        grid-template-columns: fit-content(440px) minmax(min-content, 456px);
+        grid-template-rows: min-content fit-content(440px);
+        gap: 48px 32px;
+    }
+}
+
+@media (max-width: 768px) {
+    .place {
+        gap: 48px 28px;
+    }
+}
+
+@media (max-width: 320px) {
+    .place {
+        margin-top: 16px;
+        gap: 32px;
+        grid-template-columns: fit-content(320px);
+    }
 }

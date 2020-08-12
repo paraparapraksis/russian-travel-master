@@ -5,4 +5,18 @@
     font-size: 18px;
     line-height: 163%;
     color: #FFFFFF;
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+
+@media (max-width: 768px) {
+    .place__paragraph {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 320px) {
+    .place__paragraph:last-child{
+       margin-bottom: 0;
+    }
 }

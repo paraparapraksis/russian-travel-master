@@ -1,0 +1,21 @@
+@import url(./__link/footer__link.css);
+@import url(./__copyright/footer__copyright.css);
+
+
+.footer {
+    min-height: 134px;
+    width: 1280px;
+    padding-left: 48px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    /*padding-left: 48px;*/
+    position: relative;
+
+}
+
+@media (max-width: 1024px) {
+    .footer {
+        width: 100vw;
+    }
+}

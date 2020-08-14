@@ -20,6 +20,19 @@
     }
 }
 
+@media (max-width: 768px) {
+    .cover__overlay {
+        height: 480px;
+    }
+}
+
+@media (max-width: 320px) {
+    .cover__overlay {
+        height: 200px;
+    }
+}
+
+
 /*@media (max-width: 320px) {*/
 /*    .cover__overlay {*/
 /*        width: 100vw;*/

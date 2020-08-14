@@ -15,6 +15,8 @@
         grid-template-columns: fit-content(440px) minmax(min-content, 456px);
         grid-template-rows: min-content fit-content(440px);
         gap: 48px 32px;
+        margin-right: 24px;
+        margin-left: 24px;
     }
 }
 
@@ -26,10 +28,10 @@
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 625px) {
     .place {
         margin-top: 16px;
         gap: 32px;
-        grid-template-columns: fit-content(320px);
+        grid-template-columns: fit-content(90vw);
     }
 }

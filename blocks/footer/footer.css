@@ -4,7 +4,7 @@
 
 .footer {
     min-height: 134px;
-    width: 1280px;
+    /*width: 1280px;*/
     padding-left: 48px;
     display: flex;
     align-items: flex-end;
@@ -14,8 +14,17 @@
 
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
     .footer {
-        width: 100vw;
+        min-height: 130px;
+        padding-left: 24px;
+    }
+}
+
+@media (max-width: 320px) {
+    .footer {
+     flex-direction: column;
+        padding-left: 16px;
+        align-items: flex-start;
     }
 }

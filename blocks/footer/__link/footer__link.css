@@ -10,8 +10,21 @@
     text-decoration: none;
 }
 
-/*@media (max-width: 1024px) {*/
-/*    .cover__background {*/
-/*        width: 100vw;*/
-/*    }*/
-/*}*/
+@media (max-width: 320px) {
+    .footer__link {
+        font-size: 24px;
+        line-height: 24px;
+        margin-bottom: 32px;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .footer__link:nth-last-child(6) {
+    margin-top: 64px;
+    }
+    .footer__link:nth-last-child(2) {
+        margin-bottom: 0;
+    }
+
+}
+
+

@@ -7,8 +7,6 @@
     text-align: right;
     color: #FFFFFF;
     margin: 0;
-    /*align-self: flex-end;*/
-    /*justify-self: flex-end;*/
     position: absolute;
     right: 48px;
     bottom: 24px;
@@ -18,12 +16,16 @@
 
 @media (max-width: 768px) {
     .footer__copyright {
-        right: 24px;
-        bottom: 24px;
+        position: unset;
+        padding-bottom: 24px;
+        padding-top: 48px;
+        justify-self: end;
+        padding-right: 24px;
     }
 }
 
-@media (max-width: 320px) {
+
+@media (max-width: 636px) {
     .footer__copyright {
         position: unset;
         line-height: 14px;

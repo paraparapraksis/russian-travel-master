@@ -4,12 +4,10 @@
 
 .footer {
     min-height: 134px;
-    /*width: 1280px;*/
     padding-left: 48px;
     display: flex;
     align-items: flex-end;
     justify-content: flex-start;
-    /*padding-left: 48px;*/
     position: relative;
 
 }
@@ -18,12 +16,13 @@
     .footer {
         min-height: 130px;
         padding-left: 24px;
+
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 636px) {
     .footer {
-     flex-direction: column;
+        flex-direction: column;
         padding-left: 16px;
         align-items: flex-start;
     }
